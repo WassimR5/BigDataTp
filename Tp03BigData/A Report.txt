@@ -1,0 +1,12 @@
+TP03: Interactive Data Analysis and Visualization Report
+
+**Overview & Data Processing:**
+In this lab, we successfully imported, cleaned, and processed the large-scale `nova_interactions_massive.csv` dataset (~5.4 GB, containing over 35 million records) 
+within Power BI Desktop. Transformations and quality checks were performed using Power Query to maintain data integrity and optimize performance.
+
+**Key Findings & Dashboard Insights:**
+1. **Total Value (KPI Card):** The dataset represents a cumulative transaction volume of approximately **$2.71 Billion**.
+2. **Category Distribution (Bar Chart):** `Food Delivery` emerged as the top-performing category by revenue, followed by `Ride-Hailing` and `E-Commerce`.
+3. **Transaction Status (Column Chart):** The vast majority of interactions were completed successfully, with minimal failed or refunded transactions.
+4. **Time Series Trend (Line Chart):** Transaction volume remained consistently high throughout 2024, exhibiting steady monthly fluctuations.
+5. **Interactivity (Slicer):** Dynamic slicers were implemented to allow cross-filtering of all visualizations by interaction status and category.
