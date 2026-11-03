@@ -1,0 +1,13 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Credentials / local config
+.env
+
+# Generated output
+*.csv
