@@ -1,0 +1,16 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Spark checkpoints and local output (must not be uploaded)
+checkpoint/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Credentials
+.env
